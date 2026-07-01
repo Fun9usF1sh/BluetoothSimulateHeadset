@@ -1,0 +1,21 @@
+﻿<Window x:Class="BAU.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BAU"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="250"
+        ResizeMode = "NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button HorizontalAlignment="Left" Margin="337,10,0,0" VerticalAlignment="Top">
+            <MediaElement Height="100" Width="100"/>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="520,103,0,0" VerticalAlignment="Top"/>
+        <Button Content="连接设备" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click" Margin="0,10,0,0" Height="23" Width="130" RenderTransformOrigin="0.502,-1.097"/>
+        <Label Content="   先让电脑的蓝牙&#xD;&#xA;      连接到手机" IsEnabled="False" Height="60" Width="146" FontSize="16"/>
+        <Label Content="作者Cry5t4lJ4d3：不对本软件造成的任何问题负责" Margin="0,167,0,0" FontSize="6"/>
+
+    </Grid>
+</Window>
